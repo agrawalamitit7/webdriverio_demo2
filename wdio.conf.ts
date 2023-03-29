@@ -328,7 +328,7 @@ export const config: Options.Testrunner = {
           if(fs.existsSync(dir)){
       fs.rmSync(dir,{recursive:true})
 
-    console.log(`${dir} is deleted!`)
+    console.log(`${dir} is deleted`)
     }
   }
     catch(err){

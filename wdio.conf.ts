@@ -332,7 +332,7 @@ export const config: Options.Testrunner = {
     }
   }
     catch(err){
-      console.log("Error while deleting the dir")
+      console.log("Error while deleting the directory")
       if(!fs.existsSync(dir)){
       fs.mkdirSync(dir,{recursive:true})
       console.log("dir got created")

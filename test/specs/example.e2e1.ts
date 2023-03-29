@@ -14,7 +14,7 @@ describe('My Login application', () => {
         allureReporter.addDescription("<b>Login into App. with valid credential</b>","html")
         allureReporter.addArgument("platform","Window")
         await LoginPage.open();
-        await browser.pause(2000)
+        await browser.pause(3000)
        console.log("Page url --- " + await LoginPage.getUrl())
 
         allureReporter.addStep("Login into the Application");

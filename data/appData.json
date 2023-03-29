@@ -1,0 +1,31 @@
+{
+    "urls":{
+    
+  "qa": "https://www.amazon.com",
+  "dev": "https://www.google.com",
+  "prod": "https://www.saucedemo.com"
+
+},
+"users":[
+ {
+    "env":"qa",
+    "username":"123",
+    "password":"p123"
+ },
+  {
+    "env": "dev",
+    "username": "456",
+    "password": "p456"
+  },
+   {
+     "env": "prod",
+     "username": "standard_user",
+     "password": "secret_sauce"
+   }
+
+
+]
+
+
+
+}

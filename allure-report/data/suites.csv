@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Mar 29 15:44:30 IST 2023","Wed Mar 29 15:44:38 IST 2023","7976","","My Login application","","","","should login with invalid password",""
+"passed","Wed Mar 29 15:44:01 IST 2023","Wed Mar 29 15:44:15 IST 2023","14213","","My Login application","","","","should login with valid credentials",""
+"passed","Wed Mar 29 15:44:31 IST 2023","Wed Mar 29 15:44:39 IST 2023","7904","","My Login application","","","","should login with invalid password",""
+"passed","Wed Mar 29 15:44:00 IST 2023","Wed Mar 29 15:44:14 IST 2023","13724","","My Login application","","","","should login with valid credentials",""
+"failed","Wed Mar 29 15:44:14 IST 2023","Wed Mar 29 15:44:30 IST 2023","16398","","My Login application","","","","should login with valid invalid username",""
+"failed","Wed Mar 29 15:44:15 IST 2023","Wed Mar 29 15:44:31 IST 2023","16231","","My Login application","","","","should login with valid invalid username",""

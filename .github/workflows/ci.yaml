@@ -15,5 +15,5 @@ jobs:
           run: npm run wdio
         - uses: actions/upload-artifact@v3
           with:
-            name: allureReport
+            name: allureTestReport
             path: ./reports/allure/allure-report
